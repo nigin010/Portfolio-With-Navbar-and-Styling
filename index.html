@@ -3,6 +3,7 @@
 <head>
   <title>Portfolio</title>
   <link rel = "stylesheet" href = "css/portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -15,31 +16,35 @@
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
+        <span>      </span>
       </ul>
     </div>
   </nav>
   <section id="profile">
     <div class="section__pic-container">
-      <img src="images/profile.jpg" alt="profile picture" />
+      <img class = "image" src="images/profiletwo.jpg" alt="profile picture" />
     </div>
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
       <h1 class="title">Nigin N Manayil</h1>
-      <p class="section__text__p2">Software Developer</p>
+      <p class="section__text__p2">Associate Software Developer</p>
       <div class="btn-container">
-        <button
-          class="btn btn-color-2"
-        >
-          Download CV
-        </button>
-        <button class="btn btn-color-1">
-          Contact Info
-        </button>
+        <a href = "resources/Resume.pdf" download = "Nigin's Resume">
+          <button class="btn btn-color-2">
+            Download CV
+          </button>
+        </a>
+        <a href = "#contact">
+          <button class="btn btn-color-1">  
+            Contact Info
+          </button>
+        </a>
       </div>
     </div>
   </section>
 
   <section id="about">
+    <br><br><br><br><br>
     <div class = "shadow-panel">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
@@ -49,7 +54,7 @@
             <p>
               Hey guys! I'm Nigin. I hail from Ernakulam, Kerala, India. 
               I did my graduation from Toc H Institute of Science and Technology, Arakkunnam, Kerala, India. 
-              I've been doing code from school days, and I've had passion for that ever since. 
+              I've been doing coding from school days, and I've had passion for that ever since. 
               I have worked with various technologies including popular coding languages like C, Java, Python, Flutter etc., 
               various databases like Firebase, NoSQL, MySQL, etc., and a gaming engine that is Unity 3D. After I worked in Unity 3D, 
               I've had so much passion for game development. The main game project that I've worked on is called "Meta-Saurs - A Blockchain based Trading Game", 
@@ -70,6 +75,7 @@
 
 
   <section id = education>
+    <br><br><br><br><br>
     <h1 class="title">Education</h1>
     <br><br><br>
     <div class = "education-panel">
@@ -124,6 +130,7 @@
   
   
   <section id="skills">
+    <br><br><br><br><br>
     <div class = "shadow-panel">
       <h1 class="title">Skills</h1>
       <br><br>
@@ -166,93 +173,101 @@
   </section>
 
   <section id = projects>
+    <br><br><br><br><br>
     <h1 class="title">Projects</h1>
     <div class = "projects-panel">
       <div class = "project-data">
         <p>
-          Hey guys! I'm Nigin. I hail from Ernakulam, Kerala, India. 
-          I did my graduation from Toc H Institute of Science and Technology, Arakkunnam, Kerala, India. 
-          I've  doing code from school days, and I've had passion for that ever since. 
-          I have worked with various technologies including popular coding languages like C, Java, Python, Flutter etc., 
-          various databases like Firebase, NoSQL, MySQL, etc., and a gaming engine that is Unity 3D. After I worked in Unity 3D, 
-          I've had so much passion for game development. The main game project that I've worked on is called "Meta-Saurs - A Blockchain based Trading Game", 
-          which was done as a part of the final year project during the college days. 
-          The gameplay can be found by clicking <span>here</span>. My main aim is to become a game developer. 
-          To talk about my teamwork, I'm extremely good in working with my team members and excel with team leading qualities.
-          I look forward to work with y'all.
-          Thanks!
+          <br><br><br><br>
+          <h3>MetaSaurs - A Blockchain based Trading Game.</h3>
+
+          The gaming engine used for designing the game is Unity 3D.
+          Different technologies that were used for the development of the project
+          includes Unity 3D, Ganache, Blockchain, Blender, NFTs and Metamask. Ganache is a 
+          blockchain emulating platform used to emulating the blockchain. Metamask
+          wallet was used for doing the transactions among different players. 
+          Blender was used for designing many 3D objects that were used in-game. 
+          The pet dinos in the game are playable assets which was also the NFT. 
+          The main attraction of the project was the game playing element, blockchain and NFTs.
+
         </p>
+
       </div>
       <div class = "project-video">
-        <video control loop autoplay="autoplay">
-          <source src="videos/video.mp4" type="video/mp4">
+        <video control loop autoplay muted loop>
+          <source src="videos/metasaurs.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
     </div>
     <div class = "projects-panel">
       <div class = "project-video">
-        <video control loop autoplay="autoplay">
-          <source src="videos/video.mp4" type="video/mp4">
+        <video control loop autoplay muted loop>
+          <source src="videos/videotwo.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
       <div class = "project-data">
         <p>
-          Hey guys! I'm Nigin. I hail from Ernakulam, Kerala, India. 
-          I did my graduation from Toc H Institute of Science and Technology, Arakkunnam, Kerala, India. 
-          I've  doing code from school days, and I've had passion for that ever since. 
-          I have worked with various technologies including popular coding languages like C, Java, Python, Flutter etc., 
-          various databases like Firebase, NoSQL, MySQL, etc., and a gaming engine that is Unity 3D. After I worked in Unity 3D, 
-          I've had so much passion for game development. The main game project that I've worked on is called "Meta-Saurs - A Blockchain based Trading Game", 
-          which was done as a part of the final year project during the college days. 
-          The gameplay can be found by clicking <span>here</span>. My main aim is to become a game developer. 
-          To talk about my teamwork, I'm extremely good in working with my team members and excel with team leading qualities.
-          I look forward to work with y'all.
-          Thanks!
+          <br><br><br><br>
+          <h3>Contactless Smart Payment System In Public transport</h3>
+
+          The ticketing system in most of the public transport vehicles in our country
+          is based on giving money to the bus conductors in-hand. This can lead to many
+          different problems like spreading of germs through money, customers not having
+          the right amount of money to pay for the ticket, conductors not giving back the balance 
+          amount and so on. This project mainly focuses on automating the whole ticket taking
+          system in such a way that is very well practical for our country which would solve the 
+          ticketing issue as well as reduce the number of conductors there by save some money of the government which is usually
+          given as salary to the conductrs. The main technologies used
+          includes Python, RFID Sensors, RFID Cards, OpenStreet API and Firebase for database.
+
         </p>
       </div>
     </div>
   </section>
+  <section class = temp>
 
+  </section>
 
-
-  <!-- <section id="skills">
-    <p class="section__text__p1">Get To Know More</p>
-    <h1 class="title">SKILLS</h1>
-    <div class="section-container">
-      <div class="about-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h3>skills</h3>
-            <p>C</p>
-            <br>
-            <p>C++</p>
-            <br>
-            <p>Java</p>
-            <br>
-            <p>Python</p>
-            <br>
-            <p>HTML</p>
-            <br>
-            <p>CSS</p>
+  <section id="contact">
+    <br><br><br><br><br>
+      <h1 class="title">Connect with Me!</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="icon-container">
+            <p>
+              <div class = "icon-div">
+                <a href = "https://www.instagram.com/">
+                  <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                
+              </div>
+              <div class = "icon-div">
+                <a href = "https://linkedin.com/in/nigin-n-manayil">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>          
+              </div>
+              <div class = "icon-div">
+                <a href = "https://github.com/nigin010">
+                  <i class="fa-brands fa-square-github"></i>
+                </a>
+              </div>
+              <div class = "icon-div">
+                <a href = "https://web.whatsapp.com/">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+              </div>
+              <div class = "icon-div">
+                <a href = "https://www.gmail.com/">
+                  <i class="fa-solid fa-g"></i>
+                </a>
+              </div>
+            </p>
           </div>
-          <div class="details-container">
-            <h3>Education</h3>
-            <p>Bachelor of Technology in Computer Science  - Toc H Institute of Science and Technology<br />M.Sc. Masters Degree</p>
-            <br>
-            <p>12th - Gregorian Public School</p>
-            <br>
-            <p>10th - Sacred Heart C.M.I Public School</p>
-          </div>
-        </div>
-        <div class="text-container">
-          <p>
-            Seeking a challenging position in a reputed organization where I can learn new skills, expand my knowledge, and leverage my learnings.
-          </p>
         </div>
       </div>
-    </div>
-  </section> -->
+  </section>
+
 </body>
 </html>
