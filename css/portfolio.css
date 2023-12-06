@@ -31,6 +31,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  position: fixed;
 }
 
 .nav-links {
@@ -54,6 +55,7 @@ a:hover {
 
 .logo {
   font-size: 32px;
+  margin-right : 500px;
 }
 
 section {
@@ -150,6 +152,14 @@ section {
   text-align: center;
 }
 
+.shadow-panel {
+  border: rgb(53, 53, 53) solid;
+  border-color : gray; 
+  text-align: center;
+  border-radius: 32px;
+  padding : 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 .about-containers {
   gap: 32px;
   margin-bottom: 32px;
@@ -172,6 +182,7 @@ section {
   background: white;
   border-radius: 32px;
   border: rgb(53, 53, 53) solid;
+  border-color : gray; 
   text-align: center;
 }
 
@@ -186,3 +197,117 @@ section {
   margin: auto 0;
 }
 
+
+#skills {
+  font-family: "Poppins";
+  margin-top : 380px;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+.skills-tabular {
+  display : flex;
+}
+
+
+.progress-bar-container:not(:last-child) {
+  margin-bottom: 50px;
+  margin-left : 50px;
+}
+
+.progress-bar-container h2 {
+  color: black;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.progress-bar {
+  width: 800px;
+  height: 5px;
+  margin-top: 10px;
+  border: 1px solid #565656;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(245, 159, 0);
+}
+
+.percentage {
+  display: block;
+  height: 100%;
+  background-image: linear-gradient(to right, grey,blue, violet);
+  border-radius: 5px;
+  animation: progress 1500ms ease-in 1;
+}
+
+
+.unity {
+  width: 90%;
+}
+
+.java {
+  width: 70%;
+}
+
+.python {
+  width: 55%;
+}
+
+.web-dev {
+  width: 75%;
+}
+
+/* Animating the progress bar by 
+initially starting from 0*/
+@keyframes progress {
+  from {
+      width: 0;
+  }
+}
+
+.projects-panel {
+  display : flex;
+}
+
+.project-data {
+  flex : 1;
+}
+
+.project-video {
+  flex : 1;
+  /* background-color: rgb(21, 255, 0); */
+}
+
+video {
+  width : 500px;
+  height: 500px;
+  aspect-ratio: 16/9;
+}
+
+.education-panel {
+  display : flex;
+  margin-left : 50px;
+}
+
+.education-tile-one {
+  flex : 1;
+}
+
+.education-tile-two {
+  flex : 1;
+}
+.education-tile-three {
+  flex : 1;
+}
+
+.education-tile-one img {
+  width : 150px;
+  height : 150px;
+}
+
+.education-tile-two img {
+  width : 150px;
+  height : 150px;
+}
+
+.education-tile-three img {
+  width : 150px;
+  height : 150px;
+}
