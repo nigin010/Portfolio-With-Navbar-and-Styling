@@ -87,6 +87,9 @@ section {
   clip-path: circle();
 }
 
+.image:hover {
+  opacity : 50%
+}
 .section__pic-container {
   padding-top : 120px;
   display: flex;
@@ -168,6 +171,12 @@ section {
   border-radius: 32px;
   padding : 40px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: box-shadow 0.3s ease;
+
+}
+
+.shadow-panel:hover {
+  box-shadow: rgba(138, 43, 226, 0.7) 0px 32px 30px, rgba(138, 43, 226, 0.5) 0px -12px 10px, rgba(138, 43, 226, 0.3) 0px 4px 6px, rgba(138, 43, 226, 0.3) 0px 12px 10px, rgba(138, 43, 226, 0.2) 0px -3px 5px;
 }
 .about-containers {
   gap: 32px;
@@ -284,6 +293,9 @@ initially starting from 0*/
   /* background-color: rgb(21, 255, 0); */
 }
 
+.project-video:hover {
+  transform:scale(1.2);
+}
 video {
   width : 500px;
   height: 450px;
@@ -339,16 +351,38 @@ video {
   font-size : 70px;
 }
 
+.fa-square-instagram:hover {
+  font-size : 90px;
+}
+
 .fa-linkedin {
   font-size : 70px;
 }
+
+.fa-linkedin:hover {
+  font-size : 90px;
+}
+
 .fa-square-github {
   font-size : 70px;
 }
+
+.fa-square-github:hover {
+  font-size : 90px;
+}
+
 .fa-whatsapp {
   font-size : 70px;
 }
 
+.fa-whatsapp:hover {
+  font-size : 90px;
+}
+
 .fa-g {
   font-size : 70px;
+}
+
+.fa-g:hover{
+  font-size : 90px;
 }
